@@ -1,0 +1,4 @@
+logging:
+  slack:
+    webhook-url: ${WEBHOOK_URL}
+  config: classpath:logback-slack.xml
