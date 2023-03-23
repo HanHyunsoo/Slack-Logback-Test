@@ -10,11 +10,13 @@ sourceCompatibility = '17'
 
 repositories {
     mavenCentral()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'com.github.maricn:logback-slack-appender:1.6.1'
+    implementation 'com.github.napstr:logback-discord-appender:1.0.0'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

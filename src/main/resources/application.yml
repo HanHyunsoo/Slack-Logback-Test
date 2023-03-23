@@ -1,4 +1,6 @@
 logging:
   slack:
-    webhook-url: ${WEBHOOK_URL}
+    webhook-url: ${SLACK_WEBHOOK_URL}
+  discord:
+    webhook-url: ${DISCORD_WEBHOOK_URL}
   config: classpath:logback-slack.xml
