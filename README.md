@@ -1,6 +1,6 @@
 # Slack LogBack Test
 
-Slack Appender를 이용해 에러 로그를 채널에 보내는 예시입니다.
+Discord Appender, Slack Appender를 이용해 에러 로그를 채널에 보내는 예시입니다.
 
 ## Example
 
@@ -8,4 +8,10 @@ Slack Appender를 이용해 에러 로그를 채널에 보내는 예시입니다
 
 ## How to use
 
-발급받은 Webhook url을 WEBHOOK_URL 환경변수로 지정한뒤 실행
+* Slack Webhook url을 SLACK_WEBHOOK_URL 이름의 환경변수 값으로 지정
+* Discord Webhook url을 DISCORD_WEBHOOK_URL 이름의 환경변수 값으로 지정
+
+## Reference
+
+* [logback-discord-appender](https://github.com/napstr/logback-discord-appender)
+* [logback-slack-appender](https://github.com/maricn/logback-slack-appender)
